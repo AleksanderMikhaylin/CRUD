@@ -40,8 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
-    'django_filters'
-
+    'django_filters',
     'logistic',
 ]
 
@@ -82,7 +81,7 @@ WSGI_APPLICATION = 'stocks_products.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'netology_smart_home',
+        'NAME': 'netology_crud',
         'HOST': '127.0.0.1',
         'PORT': '5432',
         'USER': POSTGRES_SECRET.get('user'),
